@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Tetris</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="display-container">
+            <canvas id="display" width="300" height="600"></canvas>
+            <div id="gameover-container">
+                <div id="restart-container">
+                    <div>Game Over</div>
+                    <div id="restart-button">RESTART</div>
+                </div>
+            </div>
+        </div>
+        <div id="ui">
+            <div id="score-label">Score</div>
+            <div id="score">0</div>
+            <canvas id="preview" width="90" height="150"></canvas>
+            <div id="start-button">START</div>
+            <div id="manual">
+                <div class="key">A</div>
+                <div class="action">move left</div>
+                <div class="key">D</div>
+                <div class="action">move right</div>
+                <div class="key">S</div>
+                <div class="action">drop down</div>
+                <div class="key">Space</div>
+                <div class="action">rotate</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
