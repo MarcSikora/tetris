@@ -1,8 +1,10 @@
 <h1> Tetris </h1>
 <p> Simple old-school game. </p>
+Live example: https://marcsikora.github.io/projects/tetris/
 
 <h2>Pieces</h2>
 <img src="screenshots/pieces_screenshot.png" alt="pieces_screenshot">
+
 
 <h2>Manual</h2>
 <table>
